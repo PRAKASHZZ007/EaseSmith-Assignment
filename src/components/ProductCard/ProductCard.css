@@ -1,0 +1,201 @@
+
+/* Heart icon at the top right corner */
+.heart-icon {
+    position: relative;
+    left: 85%;
+    top: 5%;
+    width: 100px;
+}
+
+/* Product image: full width */
+.product-image {
+    width: 255px;
+    height: 246px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* View Product button: full width, green background */
+.view-product-btn {
+    width: 100%;
+    height: 36px;
+    background-color: #165315;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.view-product-btn:hover {
+    background-color: #134b11;
+}
+
+/* Product name */
+.product-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 5px;
+    width: 217px;
+    height: 30px;
+}
+
+/* Product description */
+.product-description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #838383;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Star rating */
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.star-icon {
+    width: 87px;
+    height: 19px;
+}
+
+.rating-value {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #A5A1A1; /* Updated color for the rating value */
+}
+
+/* Strike price */
+.strike-price {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #5E5A5AB2; /* Updated color for the strike price */
+}
+
+/* Current price */
+.current-price {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin-left: 8px;
+}
+
+/* Action buttons */
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* Add to Cart button */
+.add-to-cart-btn {
+    width: 114px;
+    height: 37px;
+    background-color: #165315; /* Background color */
+    color: white; /* Text color */
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #134b11;
+}
+
+/* Buy on Rent button */
+.buy-on-rent-btn {
+    width: 114px;
+    height: 37px;
+    background-color: transparent;
+    color: #165315;
+    border: 1px solid #165315; /* Border color */
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-on-rent-btn:hover {
+    background-color: rgba(22, 83, 21, 0.1);
+}
+
+/* Star image */
+.star-image {
+    width: 60px;
+}
+
+/* Plant image container */
+.plant-image {
+    display: flex;
+    flex-direction: column;
+}
+
+/* View product button */
+.view-product {
+    width: 268px;
+    background-color: #165315;
+    color: white;
+}
+
+/* Product name (specific class for naming consistency) */
+.p-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+}
+
+/* Product subtitle (specific class for description consistency) */
+.s-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #838383;
+}
+
+/* Add to cart (specific button) */
+.add-to-cart {
+    background-color: #165315;
+    color: white;
+    border-radius: 8px;
+    width: 125px;
+}
+
+/* Buy on rent button */
+.buy-on-rent {
+    background: transparent;
+    border: 1px solid #165315;
+    border-radius: 8px;
+    padding: 2px;
+    width: 125px;
+}
+
+
+

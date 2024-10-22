@@ -1,0 +1,70 @@
+/* Remove margins that could cause horizontal overflow */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  .container {
+    width: 100%;
+    padding:20px; /* Remove padding to avoid extra space */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0; /* Remove left margin */
+    margin-top: 20px; /* Adjust for spacing between buttons and top */
+  }
+  
+  /* Common Button Styles for both active and inactive */
+  button {
+    width: 100px; /* Same width for both buttons */
+    height: 40px; /* Same height for both buttons */
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 12px; /* Adjust margin between buttons */
+    border: none;
+    cursor: pointer;
+    padding: 0; /* Remove padding to prevent extra space */
+  }
+  
+  /* Active Button Styles */
+  button.active {
+    background-color: #165315;
+    color: #ffffff;
+  }
+  
+  /* Inactive Button Styles */
+  button.inactive {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Text Section */
+  .text {
+    margin-top: 30px; /* Reduced margin between buttons and text */
+    max-width: 100%;
+    height: auto;
+    background: #ffffff; /* White background */
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding: 0; /* Remove padding around text */
+    color: #838383; /* Text color */
+    box-sizing: border-box;
+  }
+  

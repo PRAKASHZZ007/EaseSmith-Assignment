@@ -1,0 +1,37 @@
+/* Ensure no margin or padding for body and html */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: auto;
+}
+
+.top-bar {
+    height: 33px;
+    background: #165315;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 14px; 
+    font-weight: 500; 
+    line-height: 16.94px; 
+    max-width: 100%; 
+}
+
+  
+  .left-end {
+    flex: 1;
+  }
+  
+  .center-text {
+    text-align: center; 
+  }
+  
+  .right-text {
+    flex:1;
+    text-align: right;
+  }
+  

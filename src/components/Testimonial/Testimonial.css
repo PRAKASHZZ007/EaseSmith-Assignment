@@ -1,0 +1,72 @@
+/* Container styling */
+.testimonial-container {
+  padding: 20px;
+  width: 100%;
+  position: relative;
+}
+
+/* Title styling aligned to the left */
+.testimonial-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+/* Flex row for the layout with horizontal scrolling */
+.testimonial-flex-row {
+  display: flex;
+  scroll-behavior: smooth;
+  padding: 10px 0;
+  width: 100%;
+  margin: 0 40px; /* To accommodate arrows */
+}
+
+/* Testimonial item styling */
+.testimonial-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  flex-shrink: 0;
+  width: 250px;
+}
+
+/* Image styling */
+.testimonial-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/* Text styling */
+.testimonial-text {
+  font-size: 16px;
+  text-align: center;
+  color: #555;
+  padding: 10px;
+}
+
+/* Scroll buttons */
+.scroll-btn {
+  position: absolute;
+  background-color: #ffffff; /* Set button background color to white */
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%; /* Make buttons round */
+  height: 50px;
+  width: 55px;
+  color: #000; /* Set arrow color to black for visibility */
+}
+
+.scroll-btn.left {
+  left: 0;
+}
+
+.scroll-btn.right {
+  right: 0;
+}

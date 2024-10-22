@@ -1,0 +1,97 @@
+.product-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align items horizontally */
+    gap: 20px; /* Optional: Adds space between the product cards */
+    margin: 0 auto; /* Centers the product list container */
+    max-width: 1200px; /* Optional: Set a max width for the product list */
+}
+
+
+/* Styles for the dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    left:6%;
+}
+
+.sort-button {
+    background-color: #165315;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    left: 105px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 80%;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 125px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.dropdown-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    color: #000;
+    font-size: 14px;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+.length-of-products{
+    color: #6A6A6A;
+    font-family: Poppins;
+font-size: 15px;
+font-weight: 400;
+line-height: 22.5px;
+text-align: center;
+position: relative;
+top:30px;
+}
+
+
+
+/* Product List Styles */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px 0;
+}
+
+/* Container Styles */
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    padding: 20px; 
+}
+
+.view-more{
+    text-align: center;
+}
+
+.view-more-btn{
+    background-color: #165315;
+color: white;
+width: 15%;
+    height: 36px;
+     border-radius: 8px;
+}

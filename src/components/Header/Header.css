@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+  }
+  
+  .search-icon {
+    width: 18.33px;
+    height: 18.33px;
+  }
+  
+  .search-input {
+    width: 370px;
+    padding: 5px 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .search-input::placeholder {
+    color: #888;
+  }
+  
+  .leaf-icon {
+    width: 32.24px;
+    height: 25px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navbar-right .profile,
+  .navbar-right .cart {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .navbar-right .profile i,
+  .navbar-right .cart i {
+    font-size: 20px;
+  }
+  
