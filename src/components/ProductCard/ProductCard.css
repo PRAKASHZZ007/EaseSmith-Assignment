@@ -199,3 +199,28 @@
 
 
 
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .close-popup {
+    cursor: pointer;
+    font-size: 24px; /* Adjust size for better visibility */
+    margin-left: 10px; /* Space between title and icon */
+  }
+  
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Space above content */
+  }
+  
+  .confirm-button {
+    margin-top: 20px;
+    border: 1px solid black; /* Add spacing above the button */
+  }
+  
