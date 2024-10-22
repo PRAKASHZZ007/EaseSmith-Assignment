@@ -35,7 +35,7 @@ function App() {
       <Layout>
         {/* Define Routes */}
         <Routes>
-          <Route path="/Ease-Assign" element={<Products />} /> {/* Main products page */}
+          <Route path="/EaseSmith-Assignment" element={<Products />} /> {/* Main products page */}
           <Route path="/thank-you" element={<ThankYou />} /> {/* Thank You page */}
         </Routes>
       </Layout>
